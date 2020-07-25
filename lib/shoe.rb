@@ -8,6 +8,7 @@ class Shoe
     @brand = brand
     if BRANDS.none?{|current_brand| current_brand == brand}
       BRANDS << brand
+    end
   end
 
   def cobble
